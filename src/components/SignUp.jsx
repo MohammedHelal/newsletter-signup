@@ -13,7 +13,7 @@ function SignUp({
     <section className="container">
       <figure>
         <img
-          src="./assets/images/illustration-sign-up-desktop.svg"
+          src="./images/illustration-sign-up-desktop.svg"
           alt="illustration for signup"
           className="image"
         />
@@ -22,16 +22,15 @@ function SignUp({
         <h1>Stay updated!</h1>
         <p>Join 60,000+ product managers receiving monthly updates on:</p>
         <p>
-          <img src="./assets/images/icon-list.svg" alt="list image" /> Product
+          <img src="./images/icon-list.svg" alt="list image" /> Product
           discovery and building what matters{" "}
         </p>
         <p>
-          <img src="./assets/images/icon-list.svg" alt="list image" /> Measuring
-          to ensure updates are a success
+          <img src="./images/icon-list.svg" alt="list image" /> Measuring to
+          ensure updates are a success
         </p>
         <p>
-          <img src="./assets/images/icon-list.svg" alt="list image" /> And much
-          more!
+          <img src="./images/icon-list.svg" alt="list image" /> And much more!
         </p>
         <form className="sign-up-form" onSubmit={formHandler}>
           <div className="flex">

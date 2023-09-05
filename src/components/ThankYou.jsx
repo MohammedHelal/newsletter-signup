@@ -5,7 +5,7 @@ function ThankYou({ email, dismissMessage }) {
   return (
     <article className="card">
       <div>
-        <img src="./assets/images/icon-success.svg" alt="list image" />
+        <img src="./images/icon-success.svg" alt="list image" />
         <h1>Thanks for subscribing! </h1>
         <p>
           A confirmation email has been sent to <span>{email}</span>. Please
