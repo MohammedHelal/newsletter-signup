@@ -117,7 +117,7 @@ figure {
   }
 
   figure > img {
-    content: url("./assets/images/illustration-sign-up-mobile.svg");
+    content: url("./images/illustration-sign-up-mobile.svg");
   }
 
   .image {
