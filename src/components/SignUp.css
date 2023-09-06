@@ -86,6 +86,7 @@ figure {
   height: 100%;
   max-height: 500px;
   border-radius: 15px;
+  content: url("./images/illustration-sign-up-desktop.svg");
 }
 
 @media only screen and (max-width: 500px) {
@@ -116,7 +117,7 @@ figure {
     margin: 0;
   }
 
-  figure > img {
+  .image {
     content: url("./images/illustration-sign-up-mobile.svg");
   }
 

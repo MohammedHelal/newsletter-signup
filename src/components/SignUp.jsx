@@ -12,11 +12,7 @@ function SignUp({
   return (
     <section className="container">
       <figure>
-        <img
-          src="./images/illustration-sign-up-desktop.svg"
-          alt="illustration for signup"
-          className="image"
-        />
+        <img src="" alt="illustration for signup" className="image" />
       </figure>
       <article className="sign-up-article">
         <h1>Stay updated!</h1>
