@@ -11,9 +11,6 @@ function SignUp({
 }) {
   return (
     <section className="container">
-      <figure>
-        <img src="" alt="illustration for signup" className="image" />
-      </figure>
       <article className="sign-up-article">
         <div className="info">
           <h1>Stay updated!</h1>
@@ -46,6 +43,13 @@ function SignUp({
           <button type="submit">Subscribe to monthly newsletter</button>
         </form>
       </article>
+      <figure>
+        <img
+          src="./images/illustration-sign-up-desktop.svg"
+          alt="illustration for signup"
+          className="image"
+        />
+      </figure>
     </section>
   );
 }

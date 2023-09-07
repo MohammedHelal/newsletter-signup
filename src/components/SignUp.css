@@ -9,7 +9,6 @@
 }
 
 .sign-up-article {
-  order: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -100,7 +99,6 @@ button:active {
 figure {
   height: 100%;
   margin: 0;
-  order: 2;
 }
 
 .image {
@@ -123,7 +121,7 @@ figure {
   }
 
   .sign-up-article {
-    order: 2;
+    order: 1;
     padding: 20px;
   }
 
@@ -132,7 +130,7 @@ figure {
   }
 
   figure {
-    order: 1;
+    order: 2;
     width: 100%;
     padding: 0;
     margin: 0;
