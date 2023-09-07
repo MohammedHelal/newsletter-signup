@@ -77,10 +77,11 @@ button {
   margin: 10px 0;
   background-color: var(--color-dark-slate-grey);
   border: 0;
-  box-shadow: 5px 5px 2.5px var(--color-grey);
+  box-shadow: 2px 2px 1px var(--color-grey);
   border-radius: 10px;
   cursor: pointer;
   color: var(--color-white);
+  transition: transform, box-shadow;
 }
 
 button:hover {
@@ -89,6 +90,11 @@ button:hover {
     hsl(343, 98%, 67%),
     var(--color-tomato)
   );
+}
+
+button:active {
+  transform: translate(2px, 4px);
+  box-shadow: 0 0 0;
 }
 
 figure {
