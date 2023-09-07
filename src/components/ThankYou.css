@@ -19,6 +19,7 @@
 
 .card > div > p > span {
   font-weight: 700;
+  color: var(--color-tomato);
 }
 
 @media only screen and (max-width: 500px) {

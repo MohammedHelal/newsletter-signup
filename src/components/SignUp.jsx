@@ -15,33 +15,32 @@ function SignUp({
         <img src="" alt="illustration for signup" className="image" />
       </figure>
       <article className="sign-up-article">
-        <h1>Stay updated!</h1>
-        <p>Join 60,000+ product managers receiving monthly updates on:</p>
-        <p>
-          <img src="./images/icon-list.svg" alt="list image" /> Product
-          discovery and building what matters{" "}
-        </p>
-        <p>
-          <img src="./images/icon-list.svg" alt="list image" /> Measuring to
-          ensure updates are a success
-        </p>
-        <p>
-          <img src="./images/icon-list.svg" alt="list image" /> And much more!
-        </p>
+        <div className="info">
+          <h1>Stay updated!</h1>
+          <p>Join 60,000+ product managers receiving monthly updates on:</p>
+          <ul className="sign-up-list">
+            <li>Product discovery and building what matters</li>
+            <li>Measuring to ensure updates are a success</li>
+            <li>And much more!</li>
+          </ul>
+        </div>
         <form className="sign-up-form" onSubmit={formHandler}>
-          <div className="flex">
-            <label htmlFor="email">Email address</label>
-            {isError && <p>Valid email required</p>}
-          </div>
+          <label htmlFor="email" className="flex">
+            Email address{" "}
+            {isError && (
+              <span className="error-text">Valid email required</span>
+            )}
+          </label>
           <input
             className={"email-input " + (isError && "email-input-error")}
-            name="email"
+            id="email"
             type="text"
             value={email}
             onChange={(e) => changeEmail(e)}
             onBlur={blurEmail}
             onFocus={() => setIsError(false)}
             placeholder="email@company.com"
+            autoComplete="email"
           />
 
           <button type="submit">Subscribe to monthly newsletter</button>
